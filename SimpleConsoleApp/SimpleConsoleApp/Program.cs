@@ -19,6 +19,22 @@ public static class StatisticsHelper
 
         return numbers.Average();
     }
+    public static int Min(int[] numbers)
+    {
+        if (numbers == null || numbers.Length == 0)
+            throw new ArgumentException("Array cannot be null or empty.");
+
+        return numbers.Min();
+    }
+
+    public static int Max(int[] numbers)
+    {
+        if (numbers == null || numbers.Length == 0)
+            throw new ArgumentException("Array cannot be null or empty.");
+
+        return numbers.Max();
+    }
+    
 
     
 }
