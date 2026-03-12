@@ -35,6 +35,19 @@ public static class StatisticsHelper
         return numbers.Max();
     }
     
+    public static double Median(int[] numbers)
+    {
+        if (numbers == null || numbers.Length == 0)
+            throw new ArgumentException("Array cannot be null or empty.");
+
+        var sorted = numbers.OrderBy(n => n).ToArray();
+        int middle = sorted.Length / 2;
+
+        if (sorted.Length % 2 == 0)
+            return (sorted[middle - 1] + sorted[middle]) / 2.0;
+
+        return sorted[middle];
+    }
 
     
 }
