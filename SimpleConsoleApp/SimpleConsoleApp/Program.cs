@@ -11,6 +11,8 @@ Console.WriteLine("Main branch change");
 Console.WriteLine("main change");
 Console.WriteLine("Min step 1");
 
+Console.WriteLine("Min step 2");
+
 public static class StatisticsHelper
 {
     public static int Sum(int[] numbers)
