@@ -4,6 +4,8 @@ Console.WriteLine("simple console app");
 
 Console.WriteLine("Average feature");
 
+Console.WriteLine("Feature max branch");
+
 Console.WriteLine("Main branch change");
 
 public static class StatisticsHelper
