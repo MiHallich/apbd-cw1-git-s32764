@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Main branch version");
+
+Console.WriteLine("Main + Future version");
+
 
 Console.WriteLine("Average feature");
 
