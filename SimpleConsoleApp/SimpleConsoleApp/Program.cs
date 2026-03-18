@@ -4,6 +4,8 @@ Console.WriteLine("simple console app");
 
 Console.WriteLine("Average feature");
 
+Console.WriteLine("Feature max branch");
+
 public static class StatisticsHelper
 {
     public static int Sum(int[] numbers)
