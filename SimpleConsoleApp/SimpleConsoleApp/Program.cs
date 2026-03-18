@@ -8,6 +8,7 @@ Console.WriteLine("Feature max branch");
 
 Console.WriteLine("Main branch change");
 
+Console.WriteLine("main change");
 public static class StatisticsHelper
 {
     public static int Sum(int[] numbers)
