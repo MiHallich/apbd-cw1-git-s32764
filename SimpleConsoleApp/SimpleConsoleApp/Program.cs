@@ -2,6 +2,8 @@
 
 Console.WriteLine("simple console app");
 
+Console.WriteLine("Average feature");
+
 public static class StatisticsHelper
 {
     public static int Sum(int[] numbers)
