@@ -9,6 +9,8 @@ Console.WriteLine("Feature max branch");
 Console.WriteLine("Main branch change");
 
 Console.WriteLine("main change");
+Console.WriteLine("Min step 1");
+
 public static class StatisticsHelper
 {
     public static int Sum(int[] numbers)
